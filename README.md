@@ -4,5 +4,4 @@
 # This will demonstrate how to use data persistence across hosts in a swarm cluser.
 # Use to create two volumes called `volume` and `wordpress_data`.
 # This datastore  will persist while containers are created and destroyed across hosts.
-#
 # docker stack deploy --compose-file=docker-compose.yml my-stack
